@@ -1,0 +1,10 @@
+a =
+  if true
+    '真です'
+  else
+    '偽りです'
+  end
+puts a
+
+b = def foo; end
+puts b
