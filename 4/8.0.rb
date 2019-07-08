@@ -59,3 +59,34 @@ end
 dimensions.each_with_index do |(length, width), i|
   puts "length: #{length}, width: #{width}, i: #{i}"
 end
+
+numbers = [1, 2, 3, 4,]
+sum = 0
+numbers.each do |n; sum|
+  sum = 10
+  sum += n
+  p sum
+end
+puts "-------"
+p sum
+
+# File.open("./sample.txt", "w") do |file|
+#   file.puts("１行目のテキストです。")
+#   file.puts("２行目のテキストです。")
+#   file.puts("３行目のテキストです。")
+# end
+
+a = [1, 2, 3]
+p a.delete(100)
+a.delete(100) do
+  p 'NG'
+end
+a.delete 100 do
+  p 'NG'
+end
+a.delete(100) { p 'NG' }
+
+names = ['田中', '鈴木', '佐藤']
+names.map do |name|
+  "#{name}さん"
+end.join('と')
