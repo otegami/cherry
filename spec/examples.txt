@@ -1,6 +1,7 @@
-example_id                        | status | run_time        |
---------------------------------- | ------ | --------------- |
-./spec/covert_length_spec.rb[1:1] | passed | 0.00045 seconds |
-./spec/fizz_bazz_spec.rb[1:1]     | passed | 0.00005 seconds |
-./spec/rgb_spec.rb[1:1:1]         | passed | 0.00007 seconds |
-./spec/rgb_spec.rb[1:2:1]         | passed | 0.00008 seconds |
+example_id                              | status | run_time        |
+--------------------------------------- | ------ | --------------- |
+./spec/convert_hash_syntax_spec.rb[1:1] | passed | 0.00006 seconds |
+./spec/covert_length_spec.rb[1:1]       | passed | 0.00009 seconds |
+./spec/fizz_bazz_spec.rb[1:1]           | passed | 0.00006 seconds |
+./spec/rgb_spec.rb[1:1:1]               | passed | 0.00035 seconds |
+./spec/rgb_spec.rb[1:2:1]               | passed | 0.00007 seconds |
