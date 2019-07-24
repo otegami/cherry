@@ -1,0 +1,14 @@
+# namespace :my_tasks do
+#   task :hello_world do
+#     desc 'テスト用のタスクです。'
+#     puts 'Hello, world!!'
+#   end
+# end
+
+require 'rake/testtask'
+
+Rake::TestTask.new do |t|
+  t.pattern = '../spec/**/*_spec.rb'
+end
+
+task default: :test
